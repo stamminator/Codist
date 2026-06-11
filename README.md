@@ -13,7 +13,7 @@ Check out this list to see what _Codist_ can do for you.
 
 * [Advanced Syntax Highlight](#advanced-c-syntax-highlight) ANY LANGUAGES, and [*Comment Tagger*](#comment-tagger-and-styles) highlights `to-do` style comments
    ![](doc/feature-brief-syntax-highlight.png)
-* [Super Quick Info](#super-quick-info) with extended XML Doc, symbol tool-tips, selectable contents, appearance customization, etc.
+* [Super Quick Info](#super-quick-info) with extended XML Doc, symbol tool-tips, selectable content, appearance customization, etc.
    ![Feature Brief Super Quick Info](doc/feature-brief-super-quick-info.png)
 * [Navigation Bar](#navigation-bar) with a drag-and-drop and filter enabled member list
    ![Feature Brief Navigation Bar](doc/feature-brief-navigation-bar.png)
@@ -39,7 +39,7 @@ _Codist_ supports localization into other languages and it has both English and 
 
 The advanced syntax highlight function highlights every aspect of C# language elements with diverse styles, including using various font families and text styles, underline styles, enlarging or shrinking font sizes, changing foreground or background colors and transparency.
 
-You can change syntax highlight styles in any languages, such as Visual BASIC, F#, SASS, and so on, even if they are not recognized by Codist.
+You can change syntax highlight styles in any language, such as Visual BASIC, F#, SASS, and so on, even if they are not recognized by Codist.
 
 The following screenshots of the `TestPage.cs` file in the source code project demonstrates possible syntax highlight effects in the Light theme.
 
@@ -47,7 +47,7 @@ The following screenshots of the `TestPage.cs` file in the source code project d
 
 * The font size and font family for each syntax style can be changed, so it is much easier to spot them. This feature is helpful for color-blind people.
 * Syntax highlight can be applied to braces and parentheses.
-* Various syntax identifiers have different styles, temporary elements such as method parameters and local variables are italic, `static` symbols are underlined.
+* Various syntax identifiers have different styles. In the above screenshot, temporary elements such as method parameters and local variables are italic, and `static` symbols are underlined.
 * Comment content can be tagged (e.g. _todo_, _note_) and highlighted with individual style.
 * Unnecessary code can be marked strike-through.
 * Keywords are categorized and highlighted with various styles (e.g. `abstract` and `sealed`, `return` and `throw`, etc.).
@@ -59,13 +59,13 @@ The following screenshots of the `TestPage.cs` file in the source code project d
 
 To quickly get started with advanced syntax highlight, open a C# project, then click the _Customize Codist Syntax Highlighting_ command under the _Tools_ menu.
 
-A window will pop up, click buttons at the left side of the dialog under the **Predefined themes** and see changes in effect. The styles on the right of the dialog immediately lists effects of corresponding syntax elements. Don't forget to click the *Save* button at the bottom of the dialog to confirm the changes.
+A window will pop up. Click the buttons on the left side of the dialog under **Predefined themes** and see changes in effect. The styles on the right of the dialog immediately list effects of corresponding syntax elements. Don't forget to click the *Save* button at the bottom of the dialog to confirm the changes.
 
   ![Load Theme](doc/syntax-highlight-customization-window.png)
 
 With the **Save** and **Load** buttons, you can backup and share your own syntax highlight settings.
 
-If you mess up your syntax highlight styles, you can press the **Reset** button to reset all settings to default, or reapply predefined themes by clicking buttons at the left bottom.
+If you mess up your syntax highlight styles, you can press the **Reset** button to reset all settings to default, or reapply predefined themes using the buttons in the bottom left corner.
 
 **Note**: There is a known issue in _Codist_ that **if you change the theme of Visual Studio, you may have to restart it to make syntax highlight settings to work properly**. If the **Reset** button does not work, please try restarting Visual Studio.
 
@@ -73,23 +73,23 @@ If you mess up your syntax highlight styles, you can press the **Reset** button 
 
 To customize and tweak the desired syntax highlight styles, click or select the text in the document window, and click the _Customize Codist Syntax Highlighting_ command under the _Tools_ menu.
 
-The customization window will pop up and listing syntax classifications applied to the active text.
+The customization window will pop up and list syntax classifications applied to the active text.
 
   ![Syntax Highlight Customizing Selected](doc/syntax-highlight-customizing-selected.png)
 
-  Click the style in the Syntax Styles list, adjustment controls will be displayed at the bottom of the dialog, where you can change the style. As you change the style, you can immediately see how it appears in the code document window.
+  Click the style in the Syntax Styles list. Adjustment controls will be displayed at the bottom of the dialog, where you can change the style. As you change the style, you can immediately see how it appears in the code document window.
 
   ![Syntax Highlight Customization Preview](doc/syntax-highlight-customization-preview.png)
 
-  Underline styles can be customized. Firstly assign a color for the **Line**, afterwards, more configuration elements will appear.
+  Underline styles can be customized. After you assign a color for the **Line**, more configuration elements will appear.
 
-If you want to change another syntax element, click on the place where it is applied in the code document window. If the customization window is still opened, and the _Selected Code_ section under _Syntax Categories_ is selected, the list will display the corresponding syntax styles for the place you clicked immediately.
+If you want to change another syntax element, click the syntax element in the code document window. If the customization window is still opened and the _Selected Code_ section under _Syntax Categories_ is selected, the list will display the syntax styles corresponding to the syntax element you clicked.
 
-You can explore other syntax categories by clicking the list on the left of the dialog.
+You can explore other syntax categories by clicking the list on the left side of the dialog.
 
-Syntax definitions in the _All languages_ section will list all syntax styles for any languages installed; those under _Tagged comments_ section apply to [comment taggers](#comment-tagger-and-styles), others apply to corresponding languages accordingly.
+Syntax definitions in the _All languages_ section will list all syntax styles for any languages installed. Those under the _Tagged comments_ section apply to [comment taggers](#comment-tagger-and-styles), while others apply to corresponding languages accordingly.
 
-**Note**: _Font size_ is relative value to editor default font size. Partially checked checkboxes denote default syntax styles are used.
+**Note**: The _Font size_ value is relative to the editor's default font size. Partially checked checkboxes denote default syntax styles are used.
 
 **A Side Note for Editor Font**: You may consider substituting the font used by Visual Studio code editor with professionally designed fonts for programming, for instance, [IBM Plex Mono](https://github.com/IBM/plex), [Fira Code](https://github.com/tonsky/FiraCode), etc. Employing [MacType](https://github.com/snowie2000/mactype) can significantly enhance system-wide textual display quality, especially for Chinese, Japanese and Korean programmers.
 
